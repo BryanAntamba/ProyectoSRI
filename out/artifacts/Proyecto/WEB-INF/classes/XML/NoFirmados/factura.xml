@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="2.1.0" xmlns="http://www.sri.gob.ec">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>Mi Empresa S.A.</razonSocial>
+    <nombreComercial>Mi Empresa</nombreComercial>
+    <ruc>1790012345001</ruc>
+    <claveAcceso>0206202501171928475200110010010000001231893273317</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000123</secuencial>
+    <dirMatriz>Av. Principal 123</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>02/06/2025</fechaEmision>
+    <dirEstablecimiento>Sucursal 1</dirEstablecimiento>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>Juan Pérez</razonSocialComprador>
+    <identificacionComprador>0912345678</identificacionComprador>
+    <totalSinImpuestos>100.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>100.00</baseImponible>
+        <valor>12.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <importeTotal>112.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>112.00</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>PROD001</codigoPrincipal>
+      <descripcion>Producto de prueba</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>50.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12.00</tarifa>
+          <baseImponible>100.00</baseImponible>
+          <valor>12.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">cliente@correo.com</campoAdicional>
+  </infoAdicional>
+</factura>

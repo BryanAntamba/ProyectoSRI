@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Proyecto">
+    <output-path>$PROJECT_DIR$/out/artifacts/Proyecto</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Proyecto" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.3" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:2.3.3" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:3.0.11" />
+          <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:1.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:2.3.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.32" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+          <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.12.0" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+          <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.13.3" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.5.3" />
+          <element id="library" level="project" name="Maven: jakarta.xml.soap:jakarta.xml.soap-api:1.4.2" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.8.3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Proyecto/web/Web" />
+    </root>
+  </artifact>
+</component>

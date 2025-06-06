@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura xmlns="http://www.sri.gob.ec" id="comprobante" version="2.1.0">
+      
+    <infoTributaria>
+            
+        <ambiente>1</ambiente>
+            
+        <tipoEmision>1</tipoEmision>
+            
+        <razonSocial>Mi Empresa S.A.</razonSocial>
+            
+        <nombreComercial>Mi Empresa</nombreComercial>
+            
+        <ruc>1790012345001</ruc>
+            
+        <claveAcceso>0206202501171928475200110010010000001236842653516</claveAcceso>
+            
+        <codDoc>01</codDoc>
+            
+        <estab>001</estab>
+            
+        <ptoEmi>001</ptoEmi>
+            
+        <secuencial>000000123</secuencial>
+            
+        <dirMatriz>Av. Principal 123</dirMatriz>
+          
+    </infoTributaria>
+      
+    <infoFactura>
+            
+        <fechaEmision>02/06/2025</fechaEmision>
+            
+        <dirEstablecimiento>Sucursal 1</dirEstablecimiento>
+            
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+            
+        <razonSocialComprador>Juan Pérez</razonSocialComprador>
+            
+        <identificacionComprador>0912345678</identificacionComprador>
+            
+        <totalSinImpuestos>100.00</totalSinImpuestos>
+            
+        <totalDescuento>0.00</totalDescuento>
+            
+        <totalConImpuestos>
+                  
+            <totalImpuesto>
+                        
+                <codigo>2</codigo>
+                        
+                <codigoPorcentaje>2</codigoPorcentaje>
+                        
+                <baseImponible>100.00</baseImponible>
+                        
+                <valor>12.00</valor>
+                      
+            </totalImpuesto>
+                
+        </totalConImpuestos>
+            
+        <importeTotal>112.00</importeTotal>
+            
+        <moneda>DOLAR</moneda>
+            
+        <pagos>
+                  
+            <pago>
+                        
+                <formaPago>01</formaPago>
+                        
+                <total>112.00</total>
+                      
+            </pago>
+                
+        </pagos>
+          
+    </infoFactura>
+      
+    <detalles>
+            
+        <detalle>
+                  
+            <codigoPrincipal>PROD001</codigoPrincipal>
+                  
+            <descripcion>Producto de prueba</descripcion>
+                  
+            <cantidad>2</cantidad>
+                  
+            <precioUnitario>50.00</precioUnitario>
+                  
+            <descuento>0.00</descuento>
+                  
+            <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+                  
+            <impuestos>
+                        
+                <impuesto>
+                              
+                    <codigo>2</codigo>
+                              
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                              
+                    <tarifa>12.00</tarifa>
+                              
+                    <baseImponible>100.00</baseImponible>
+                              
+                    <valor>12.00</valor>
+                            
+                </impuesto>
+                      
+            </impuestos>
+                
+        </detalle>
+          
+    </detalles>
+      
+    <infoAdicional>
+            
+        <campoAdicional nombre="Email">cliente@correo.com</campoAdicional>
+          
+    </infoAdicional>
+    
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>wr22BmCrKkeSoIpayInOUvJ86p7rFTfMi9SKErz93Lw=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>BD9C4k97Oj2MjjPa9rN9uPoSmYCsPQoo3afEkbooG5aVBphnryUnSPeA5NU1kQJ34+4EEjki8SXZ&#13;
+6jBW08YFbTBTiJbPxX8IEH4zSVMc8WIT2qCz72ERGRvA6ki9bTZxDZXPB43wbAxTkXyH/br59Yck&#13;
+gVFwm0N0YxU6mlBInqH0NdEpXi3TckDOf5PGdvYSP6GbJt4fSlwxd/m1p57+cB+mTgPdI21Fo7RV&#13;
+maqEyEnRtWc1LEgyjRKXaWwALwQD8jhqn0AO1zK/gx8X7IS5TGctDRh2nZyBBCn20yd3h+JXu5DD&#13;
+j6X4YDdroJnpKsXMP+x+GYReVoEba7vExz9LJA==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIIJTjCCBzagAwIBAgIIJkW2GNGVIRkwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MTEwMzE5MDEwMFoXDTI3MTEwMzE5MDEwMFowgaAxCzAJBgNVBAYTAkVDMRowGAYDVQQEDBFQ&#13;
+QUNIQUNBTUEgQ0FCRVpBUzEUMBIGA1UEKgwLRUxWSVMgREFWSUQxGTAXBgNVBAUTEElEQ0VDLTE3&#13;
+MTkyODQ3NTIxJjAkBgNVBAMMHUVMVklTIERBVklEIFBBQ0hBQ0FNQSBDQUJFWkFTMRwwGgYDVQRh&#13;
+DBNUSU5FQy0xNzE5Mjg0NzUyMDAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkyNt&#13;
+fq9sFwKgSL770tzZBJxDNDiRFXjO+zzGHpgB8omZWiE+dBoDsulcxxk5kmbnemAl5WyVIcUiVVvg&#13;
+5rIfBqtVJFdTco0utpFD5jn6saGtOQWcmOLrcfevt8wBihYcKXJAYCHKcecgRttpTvCWunQ+HAcQ&#13;
+yAwnnBX43Tk9vSjcrFAgkbpG3h3reti+tkC5cB6PGfyoPeeZLVzgNVjA69UlK/jPM5qLgUlVw8o7&#13;
+0upCTUMulswqsd2D3mhlu44J/w2ZSJG2WYSs+5FRSZP0TAJJc9gTzP7mxdjZJdEP2MwxK3hj/kSU&#13;
+ssiflC1ZTgofBfzP6WCGP9bFaop6fbYyRQIDAQABo4IEcDCCBGwwGwYLKwYBBAGC8TZmAwEEDAwK&#13;
+MTcxOTI4NDc1MjAeBgsrBgEEAYLxNmYDCwQPDA0xNzE5Mjg0NzUyMDAxMIHXBggrBgEFBQcBAQSB&#13;
+yjCBxzBVBggrBgEFBQcwAoZJaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL2Rvd25sb2Fk&#13;
+L3RzcF9jZXJ0aWZpY2F0ZXMvc3Vib3JkaW5hdGUxLmNydDA2BggrBgEFBQcwAYYqaHR0cDovL29j&#13;
+c3AxLnVhbmF0YWNhLmNvbS9wdWJsaWMvcGtpL29jc3AvMDYGCCsGAQUFBzABhipodHRwOi8vb2Nz&#13;
+cDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wHQYDVR0OBBYEFIxy/DwQfowj+6ID2QFd&#13;
+UpY5O6QdMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUfVfnYHPOB0ap4qNo8OERsnSSc/0wgZkG&#13;
+A1UdIASBkTCBjjCBiwYMKwYBBAGC8TZmAgEBMHswNwYIKwYBBQUHAgEWK2h0dHBzOi8vd3d3LnVh&#13;
+bmF0YWNhLmNvbS9wdWJsaWMvcGtpL2RwYy1lYy8wQAYIKwYBBQUHAgIwNAwyQ0VSVElGSUNBRE8g&#13;
+REUgUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBAoD6g&#13;
+PIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGluYWRh&#13;
+LmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1&#13;
+Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF&#13;
+BwMEMIIBpgYDVR0RBIIBnTCCAZmBF2RhdmlzLWVsdmlzQGhvdG1haWwuY29toBsGCysGAQQBgvE2&#13;
+ZgMBoAwMCjE3MTkyODQ3NTKgHAYLKwYBBAGC8TZmAwKgDQwLRUxWSVMgREFWSUSgGgYLKwYBBAGC&#13;
+8TZmAwOgCwwJUEFDSEFDQU1BoBgGCysGAQQBgvE2ZgMEoAkMB0NBQkVaQVOgWgYLKwYBBAGC8TZm&#13;
+AwegSwxJRTUgTk1FUk86IFM0ODUyMCBJTlRFUlNFQ0NJTjogRCBSRUZFUkVOQ0lBOiBBIFRSRVMg&#13;
+Q1VBRFJBUyBERSBMQVMgQ0FOQ0hBU6AfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk5MjYyODk4MKAW&#13;
+BgsrBgEEAYLxNmYDCaAHDAVRVUlUT6AeBgsrBgEEAYLxNmYDC6APDA0xNzE5Mjg0NzUyMDAxoBMG&#13;
+CysGAQQBgvE2ZgMMoAQMAkVDoCkGCysGAQQBgvE2ZgMyoBoMGFBFUlNPTkEgTkFUVVJBTCBPIEZJ&#13;
+U0lDQaAYBgsrBgEEAYLxNmYDM6AJDAdBUkNISVZPMA0GCSqGSIb3DQEBCwUAA4ICAQBpOe7V+NDJ&#13;
+WScfo67gp2WUiggC3cF8RIwy0GJSEVEqPsi8HCc3LWUMa4Rr/1Wcmngdh4KjA1yEZhlolLUWhNMi&#13;
+QVUJrdAu0npf4cRZ4/3P1brT0V+DxXsIQ9UNv1RBTjjOQ/MJLJWycbgKfj6OQY4hyJZmnip4L3SC&#13;
+bbS3JSU79US6LS0SeR1ZBW6EfnuPwejsje1WPiCCGjo2xAoCfR8OWfgPs7RXcFbzIq73C9pOeKSV&#13;
+izxQMjXZITIRvxzpZGEB9C0Hujl83wAK+1g3h/xTHBpfCnJK/DV5T5EVJL5wFXd2Ljy1R7hrjSng&#13;
+Ff8rylDRnIEtTb7gYTF7Yc7In6fR3trZws4urtb7flYqfiUBimKTrgLqv+m0+Ap00GsjE5q4HMgq&#13;
+rBUqQtbGrR82ULM9vE0yhkM0KrYDsQyEg4DDjV9pscw2NIwzucfRXrvOwQvmJXR27U5qKd1fIyjm&#13;
+vlzOP/oLIFKk1iFiIzdorLNMK93Zpk8UHV8ZJkrw8YZni+94wExJoauoSzY5dlwvC+y/K/of/3fp&#13;
+bRbSj9ZYkvRglxAG8rBNt/oiaNBbFnsiN2muhwrTs3QRJEEpsuWkkZIdJLNVVv0h+SkuGYAGF7kR&#13;
+ie/hg7bntT/L6CG1BdWav3GdjycUO3iXqn4BHNhMPS8KIlYPD90cvLrKRoSdYiZgpw==</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</factura>
