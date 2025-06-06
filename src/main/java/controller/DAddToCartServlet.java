@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Map;
 
 @WebServlet("/addToCart")
-public class AddToCartServlet extends HttpServlet {
+public class DAddToCartServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

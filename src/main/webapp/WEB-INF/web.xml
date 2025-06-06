@@ -3,4 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+    <display-name>Proyecto</display-name>
+
+    <servlet>
+        <servlet-name>AutorizarComprobanteServlet</servlet-name>
+        <servlet-class>wssri.Wssri</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutorizarComprobanteServlet</servlet-name>
+        <url-pattern>/AutorizarComprobanteServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
